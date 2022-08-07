@@ -1,0 +1,101 @@
+.pokemonCard {
+  background-color: rgb(217, 243, 234);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  min-width: 500px;
+  max-width: 700px;
+  min-height: 400px;
+  height: auto;
+  border-radius: 25px;
+}
+
+.pokemonCardHeader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+}
+
+.pokemonCardTypes {
+  width: 100%;
+  margin: 0.3rem 0;
+}
+
+.pokemonTypeCard {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pokemonType {
+  background-color: rgb(71, 215, 143);
+  color: #fff;
+  padding: 0.2rem 0.5rem;
+  border-radius: 2rem;
+}
+
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pokemonCardBody {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ability {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.imgContainer .img {
+  flex-grow: 1;
+  flex-basis: 50%;
+}
+
+.displayFlex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 2rem 1rem;
+}
+
+.title {
+  margin: 0.5rem 0;
+}
+
+.moves {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 400px;
+  margin-top: 1rem;
+}
+
+.move {
+  flex-grow: 1;
+  flex-basis: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 0.3rem 0;
+}
